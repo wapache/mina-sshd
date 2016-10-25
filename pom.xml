@@ -26,8 +26,8 @@
         <version>15</version>
     </parent>
 
-    <groupId>org.apache.sshd</groupId>
-    <artifactId>sshd</artifactId>
+	<groupId>org.wapache.wava</groupId>
+    <artifactId>wava-ssh</artifactId>
     <version>1.4.0-SNAPSHOT</version>
     <name>Apache Mina SSHD</name>
     <packaging>pom</packaging>
@@ -816,5 +816,10 @@
         <module>sshd-git</module>
         <module>sshd-contrib</module>
         <module>assembly</module>
+
+        <module>wava-ssh-common</module>
+        <module>wava-ssh-client</module>
+        <module>wava-ssh-server</module>
+
     </modules>
 </project>
